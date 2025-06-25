@@ -1,5 +1,6 @@
 name = "web3arunproject"
-type = "javascript"  # <- Tells Wrangler this is a static JS site
+type = "javascript"
+account_id = "7351b329d553c36e94cc1f8eacaa72bd"
 compatibility_date = "2025-06-25"
 
 [site]
