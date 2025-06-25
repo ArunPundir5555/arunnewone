@@ -1,5 +1,6 @@
 name = "web3arunproject"
+type = "javascript"  # <- Tells Wrangler this is a static JS site
 compatibility_date = "2025-06-25"
 
 [site]
-bucket = "./build"  # or "./build" depending on your build tool
+bucket = "./build"
