@@ -2,4 +2,4 @@ name = "web3arunproject"
 compatibility_date = "2025-06-25"
 
 [site]
-bucket = "./dist"  # or "./build" depending on your build tool
+bucket = "./build"  # or "./build" depending on your build tool
