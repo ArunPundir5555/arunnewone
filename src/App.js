@@ -12,6 +12,7 @@ function App() {
   const [address, setAddress] = useState("");
 
   useEffect(() => {
+  console.log(provider)
     const init = async () => {
       try {
         const privateKeyProvider = new EthereumPrivateKeyProvider({
@@ -55,7 +56,7 @@ function App() {
       }
     };
     init()
-  }, []);
+  });
 
   const login = async () => {
     if (!web3auth) return;
